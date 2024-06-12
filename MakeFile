@@ -1,0 +1,2 @@
+.PHONY : openapi
+openapi :oapi-codegen  -generate types,skip-prune -o openapi/
